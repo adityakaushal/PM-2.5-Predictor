@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1>Welcome to Aerogram {{username}}</h1>
+    <form action='/predict' method="POST">
+        <select name="hrs_ahead">
+            <option name="3hr">3</option><p>Hour Prediction</p><br>
+            <option name="5hr">5</option><p>Hour Prediction</p><br>
+            <option name="6hr">6</option><p>Hour Prediction</p><br>
+            <option name="8hr">8</option><p>Hour Prediction</p><br>
+        </select>
+
+        <select name="station">
+            <option name="001" >Block 6 3rd Floor</option>
+            <option name="003" >Seminar Hall</option>
+            <option name="004" >LHC 6th floor</option>
+            <option name="005" >Mehrauli Gate</option>
+            <option name="006" >IIT Hospital</option>
+            <option name="007" >Vidhyanchal Hostel</option>
+            <option name="008" >LHC (Ground floor- Vending Machine)</option>
+            <option name="009" >UDAIGIRI</option>
+            <option name="010" >SENSE Lawn</option>
+            <option name="011" >Kusuma School</option>
+            <option name="012" >Faculty Guest House</option>
+            <option name="013" >Aravali hostel</option>
+            <option name="014" >Zanskar Hostel</option>
+            <option name="015" >Satpura Hostel</option>
+            <option name="017" >IIT MAIN GATE-GUARD CABIN</option>
+            <option name="018" >Sports Activity Centre</option>
+            <option name="019" >Shivalik Hostel</option>
+            <option name="020" >Kailash Hostel</option>
+            <option name="021" >Nilgiri Hostel</option>
+            <option name="022" >Nursery School IIT</option>
+            <option name="023" >DST 9th Floor</option>
+            <option name="024" >Himadri Hostel</option>
+            <option name="025" >SBI ATM</option>
+            <option name="026" >Main Guest House</option>
+            <option name="027" >IIT Hostel Gate</option>
+            <option name="028" >LHC 4th Floor</option>
+            <option name="029" >IIT Gate(Adchini)</option>
+            <option name="030" >IIT Gate(JNU)</option>
+            <option name="031" >IIT Gate(DMS)</option>
+            <option name="032" >CCD Inside</option>
+            <option name="033" >Karakoram Hostel</option>
+            <option name="034" >BLOCK 3(first floor, CARE(first right))</option>
+            <option name="035" >Jwalamukhi Hostel</option>
+            <option name="036" >DST 7th Floor(TRIPP balcony)</option>
+            <option name="037" >Bharti Building Second Floor IOT Security Lab</option>
+            <option name="038" >Kailash Hostel(main entrance)</option>
+            <option name="039" >Central Library</option>
+            <option name="040" >Girnar Hostel(opp. Joshi Xerox)</option>
+            <option name="041" >Nescafe</option>
+            <option name="042" >Kumaon Hostel</option>
+            <option name="043" >Central Workshop Entry</option>
+            <option name="044" >Central Workshop(Production Engineering Lab)</option>
+            <option name="045" >BLOCK 3(Centre for Biomedical Engineering)</option>
+            <option name="046" >Nilgiri Stand No. 2</option>
+            <option name="056" >SIT Building Backside</option>
+            <option name="057" >DMS Building backside (Near Cafeteria)</option>
+            <option name="058" >BLOCK V (CART)</option>
+            <option name="101" >41 New Campus</option>
+        </select>
+        
+        <p> <input type ="submit" value="submit" /> </p>
+    </form>
+</body>
+
+</html>
