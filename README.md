@@ -3,4 +3,4 @@
 This is web app 
 
 # Implementation
-![](Time Series Forecasting.gif)
+![](TimeSeries.gif)
