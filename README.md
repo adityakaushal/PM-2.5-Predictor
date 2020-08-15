@@ -3,7 +3,8 @@
 Particulate Matter 2.5 Predictor
 
 
-Project description
+Project description:
+
 Time Series Forecasting and regression analysis web app to predict and forecast PM 2.5 values and other Air pollution metrics 3 hours ahead.
 This project uses the Facebooks Prophet algorithm to forecast the PM 2.5 values 3 Hours ahead.
 
