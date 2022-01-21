@@ -39,7 +39,7 @@ holidays==0.10.1
 httplib2==0.17.0
 idna==2.9
 ipykernel==5.2.0
-ipython==7.13.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 isort==4.3.21
 itsdangerous==1.1.0
